@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style/shopping-cartpage.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="Home.html"><div class="logo-section">Logo</div></a>
+        <div class="menu-section">
+          <a href="Home.html"><div class="Home menu">Home</div></a>
+          <div class="About menu">About</div>
+          <div class="Brands menu">
+            Brands
+            <select name="brands" id="">
+              <option value=""></option>
+            </select>
+          </div>
+          <div class="More menu">
+            More
+            <select name="more" id="">
+              <option value=""></option>
+            </select>
+          </div>
+          <div class="Contact menu">Contact</div>
+        </div>
+        <div class="third-section">
+          <div class="search-section">
+            <span class="search-icon"
+              ><i class="fa-solid fa-magnifying-glass"></i></span
+            ><input type="text" placeholder="Search" name="search" />
+          </div>
+          <a href="Shopping-cartpage.html">
+          <div class="cart-section">
+            <img src="icons/cart.png" alt="" />
+            <div class="quantity">0</div>
+          </div></a>
+          <div class="profile-section"><img src="" alt="" /></div>
+        </div>
+      </nav>
+    </header>
+
+    <h1 class="heading">Shopping Cart</h1>
+    <main class="hero">
+      <section class="left">
+        <table class="cart-table">
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Quantity</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Seven By M.S.Dhoni W...</td>
+              <td>- 1 +</td>
+              <td><img class="rupees" src="icons/rupee-black.png" alt="">4,999</td>
+              <td class="remove">x</td>
+            </tr>
+            <tr>
+              <td>Seven By M.S.Dhoni W...</td>
+              <td>- 1 +</td>
+              <td><img class="rupees" src="icons/rupee-black.png" alt="">4,999</td>
+              <td class="remove">x</td>
+            </tr>
+            <tr>
+              <td>Seven By M.S.Dhoni W...</td>
+              <td>- 1 +</td>
+              <td><img class="rupees" src="icons/rupee-black.png" alt="">4,999</td>
+              <td class="remove">x</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="right">
+        <div class="payment-section">
+          <p>Enter Coupon Code</p>
+          <div>
+            <input type="text" class="coupon-box" placeholder="COUPON CODE">
+            <button class="apply-btn">Apply Coupon</button>
+          </div>
+          <div class="price">
+            <div class="title">Sub Total</div>
+            <div class="amt"><img class="rupee-icon" src="icons/rupee-black.png" alt="">4,700</div>
+          </div>
+          <div class="price">
+            <div class="taxes">Taxes(if applicable)</div>
+            <div class="amt"><img class="rupee-icon" src="icons/rupee-black.png" alt="">199</div>
+          </div>
+          <div class="price">
+            <div class="discount">Discount</div>
+            <div class="amt"><img class="rupee-icon" src="icons/rupee-black.png" alt="">0</div>
+          </div>
+          <div class="total-price price">
+            <div class="total">Total</div>
+            <div class="amt"><img class="total-rupee rupee-icon" src="icons/rupee-black.png" alt="">4,999</div>
+          </div>
+        </div>
+       <a href="paymentpage.html"><button class="pay-now">Pay Now <img class="rupee-icon pay-now-rupee-icon" src="icons/rupee-black.png" alt="">4,999</button></a>
+        <div class="razorpay">
+          <img class="secure-icons" src="icons/shield-icon.gif" alt="">
+          <img class="secure-icons razorpay-icon" src="icons/razorpay.png" alt="">
+          <img class="secure-icons secure-payment-icon" src="icons/secure-payment.png" alt="">
+        </div>
+      </section>
+     </main> 
+  <footer>
+     <a href="productpage.html">< Continue Shopping</a>
+  </footer>       
+  </body>
+</html>

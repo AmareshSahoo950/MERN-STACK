@@ -1,0 +1,44 @@
+body{
+  background-color: rgb(255, 133, 81);
+  color: white;
+  font-size:20px;
+}
+.head{
+  color: darkblue;
+}
+
+#bglime{
+  background-color: lightgreen;
+}
+#bglime>span{
+  color: red;
+}
+
+#para{
+  color: green;
+}
+
+p>span{
+  color: black;
+  font-size: 25px;
+}
+
+a{
+  background-color: yellow;
+}
+
+a>span{
+  background-color: darkviolet;
+}
+
+ol{
+  color: black;
+}
+
+ol > span {
+  color: blue;
+} 
+
+ol>article{
+  color: red;
+}

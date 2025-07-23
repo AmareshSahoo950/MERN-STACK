@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image-div{
+  margin: 10vh 25vw 0 25vw;
+}
+
+.image, .image-div{
+  width: 50vw;
+  height: 60vh;
+}
+
+.btn{
+  margin: 0 25vw 10vh 25vw;
+}
+
+button{
+  font-size: 1.4rem;
+  color: white;
+  height: 10vh;
+  width: 50vw;
+  cursor:pointer;
+  background: linear-gradient(to right,orange,yellow, rgb(8, 205, 8));
+}
+

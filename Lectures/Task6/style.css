@@ -1,0 +1,341 @@
+/* For Desktop  */
+@media screen and (min-width:769px){
+  *{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  body{
+    background-color: rgb(251, 251, 251);
+    overflow: hidden;
+  }
+  
+  nav{
+    background-color: white;
+    height:140px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-section{
+    margin-left: 70px;
+    width: 100px;
+  }
+  
+  .logo{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+  }
+  
+  .service-section{
+    gap: 70px;
+    padding-right: 40px;
+    display: flex;
+  }
+  
+  li{
+    list-style: none;
+    color: rgb(183, 183, 183);
+    font-size: 1.4em;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .username{
+    margin-right: 100px;
+    padding: 20px 80px;
+    background-color: rgb(220, 248, 255);
+    color: rgb(46, 213, 255);
+    border-radius: 10px;
+    cursor:pointer;
+  }
+  
+  .hero{    
+    /* width: 100%; */
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .left{
+    flex: 1;    
+    margin-top: 140px;
+    margin-left: 130px;
+  }
+  
+  h1{
+    font-size: 42px;
+    color: rgb(83, 83, 83);
+    width: 480px;
+    line-height: 57px;
+    padding-bottom:20px;
+  }
+  
+  p{
+    width: 580px;
+    font-size: 21px;
+    line-height: 35px;
+    color: rgb(118, 118, 118);
+    padding-bottom: 40px;
+    margin-right: 50px;
+  }
+  
+  span{
+    color: rgb(0, 179, 255);
+  }
+  
+  .right{
+    flex: 1;
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+  
+  .right-image{
+    width: 600px;
+  }
+  
+  button{
+    color: white;
+    background:linear-gradient(to right,rgb(34, 109, 175) ,rgb(47, 206, 255));
+    border: none;
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 25px 45px;
+    cursor:pointer;
+  }
+}
+
+/* For Tablet  */
+
+@media (min-width:376px) and (max-width:768px){
+  
+  *{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  body{
+    background-color: rgb(251, 251, 251);
+    /* overflow: hidden; */
+  }
+   
+  nav{
+    background-color: white;
+    height:130px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-section{
+    margin-left: 50px;
+    width: 140px;
+  }
+  
+  .logo{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+  }
+  
+  .service-section{
+    gap: 20px;
+    display: flex;
+  }
+  
+  li{
+    list-style: none;
+    color: rgb(183, 183, 183);
+    font-size: 1.1em;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .username{
+    margin-right: 60px;
+    margin-left: 60px;
+    padding: 20px 25px;
+    background-color: rgb(220, 248, 255);
+    color: rgb(46, 213, 255);
+    border-radius: 10px;
+    cursor:pointer;
+  }
+  
+  .hero{
+    width: 100vw;
+    padding-top: 140px;
+    display: flex;
+  }
+  
+  .left{
+    margin-top: 65px;
+    margin-left: 50px;
+  }
+  
+  h1{
+    font-size: 37px;
+    color: rgb(83, 83, 83);
+    width: 440px;
+    line-height: 48px;
+    padding-bottom: 10px;
+  }
+  
+  p{
+    width: 450px;
+    font-size: 24px;
+    line-height: 38px;
+    color: rgb(118, 118, 118);
+    padding-bottom: 45px;
+  }
+
+  span{
+    color: rgb(0, 179, 255);
+  }
+  
+  .right{
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  
+  .right-image{
+    width: 500px;
+  }
+  
+  button{
+    color: white;
+    background:linear-gradient(to right,rgb(34, 109, 175) ,rgb(47, 206, 255));
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 25px 40px;
+    cursor:pointer;
+  }
+}
+
+
+/* For Phone  */
+
+@media (max-width: 376px){
+  
+  *{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  body{
+    background-color: rgb(251, 251, 251);
+    /* overflow: hidden; */
+  }
+   
+  nav{
+    background-color: white;
+    height:130px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-section{
+    margin-left: 30px;
+    width: 140px;
+  }
+  
+  .logo{
+    width: 80px;
+    cursor: pointer;
+  }
+  
+  .service-section{
+    gap: 20px;
+    display: none;
+  }
+  
+  li{
+    list-style: none;
+    color: rgb(183, 183, 183);
+    font-size: 1.1em;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .username{
+    margin-right: 30px;
+    margin-left: 60px;
+    padding: 20px 25px;
+    font-size: 24px;
+    background-color: rgb(220, 248, 255);
+    color: rgb(46, 213, 255);
+    border-radius: 10px;
+    cursor:pointer;
+  }
+  
+  .hero{
+    width: 100vw;
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left{
+    margin-top: 65px;
+    margin-left: 20px;
+  }
+  
+  h1{
+    font-size: 38px;
+    color: rgb(83, 83, 83);
+    width: 440px;
+    line-height: 48px;
+    padding-bottom: 15px;
+  }
+  
+  p{
+    width: 510px;
+    font-size: 18px;
+    line-height: 40px;
+    color: rgb(118, 118, 118);
+    padding-bottom: 45px;
+  }
+
+  span{
+    color: rgb(0, 179, 255);
+  }
+  
+  .right{
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  
+  .right-image{
+    width: 400px;
+  }
+  
+  button{
+    color: white;
+    background:linear-gradient(to right,rgb(34, 109, 175) ,rgb(47, 206, 255));
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 380px;
+    height: 100px;
+    /* padding: 40px 70px; */
+    cursor:pointer;
+  }
+}

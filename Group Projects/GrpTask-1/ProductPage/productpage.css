@@ -1,0 +1,233 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Verdana;
+}
+
+body{
+  margin:0 7%;
+  background-color: rgb(231, 231, 231);
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  color: rgb(135, 135, 135);
+  font-size: 17px;
+}
+
+.directory{
+  color: rgb(135, 135, 135);
+  margin-left: 2%;
+}
+
+.logo-section{
+  display: flex;
+  max-width: 100px;
+  flex: 1;
+  justify-content: space-around;
+  margin-right:150px;
+  cursor: pointer;
+}
+
+.menu-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 40%;
+  flex: 1;
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+.menu-section .menu select{
+  border: none;
+}
+
+.third-section{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+  max-width: 420px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.search-section{
+  position: relative;
+}
+
+.search-section input{
+  padding: 9px 35px;
+  max-width: 200px;
+  min-width: 50px;
+  border-radius: 8px;
+  font-size: 16px;
+  border:1px solid rgb(193, 193, 193);
+}
+
+.search-icon{
+  position: absolute;
+  top: 24%;
+  padding: 0 12px;
+  max-width: 40px;
+}
+
+.cart-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 4px;
+  max-width: 55px;
+  flex: 1;
+  border: 1px solid rgb(193, 193, 193);
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.cart-section img{
+  width: 30px;
+}
+
+.profile-section{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: red;
+  margin-right: 2%;
+  cursor: pointer;
+}
+
+/* -------------------------------------------------- */
+.directory{
+  margin: 30px;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 30px;
+}
+
+.left{
+  max-width:50%;
+  margin-left: 2%;
+}
+
+.left .shoe{
+  width: 580px;
+  border-radius: 10px;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.right h1{
+  font-size: 34px;
+  width: 550px;
+  padding: 0;
+}
+
+.right .description{
+  font-size: 16px;
+  width: 570px;
+  line-height: 24px
+}
+
+.price-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 22px 0;
+}
+
+.price{
+  flex: 1;
+  font-size: 28px;
+  font-weight: bold;
+  color: rgba(16, 107, 205, 0.861);
+  background-color:rgba(202, 215, 243, 0.65);
+  border-radius: 7px;
+  padding: 14px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.price i{
+  position: absolute;
+  top: 24px;
+  left: 10px;
+}
+
+.discount{
+  color: rgb(43, 163, 10);
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+.note{
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.qty{
+  font-size: 16px;
+  padding: 15px 4px;
+  border-radius:6px;
+  background-color: rgb(216, 216, 216);
+  border: none;
+}
+
+.add-to-cart{
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  padding: 16px 46px;
+  border-radius: 9px;
+  border: none;
+  margin-left:5px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.add-to-cart:hover{
+  background-color: rgb(255, 197, 89);
+  transform: scale(1.01);
+}
+
+.add-to-cart:active{
+  background-color: rgb(255, 140, 0);
+  transform: scale(0.98);
+}
+
+.bottom-gallery{
+  display: flex;
+  justify-content:start;
+  gap: 25px;
+  margin-left: 2%;
+  overflow-X:auto;
+  white-space: nowrap;
+  width: 90%;
+}
+
+
+.bottom-gallery{
+  scrollbar-width: none;
+}
+
+.bottom-gallery img{
+  height: 140px;
+  width: 260px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+/* ------------------------------------------ */

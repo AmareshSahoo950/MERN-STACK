@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: verdana;
+}
+
+body{
+  margin-left: 5%;
+  overflow: hidden;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  color: rgb(135, 135, 135);
+  font-size: 16px;
+}
+
+.logo-section{
+  display: flex;
+  max-width: 100px;
+  flex: 1;
+  justify-content: space-around;
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+.menu-section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 40%;
+  flex: 1;
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+.menu-section .menu select{
+  border: none;
+}
+
+.third-section{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+  max-width: 420px;
+  margin-right: 100px;
+}
+
+.search-section{
+  position: relative;
+}
+
+.search-section input{
+  padding: 9px 35px;
+  max-width: 200px;
+  min-width: 50px;
+  border-radius: 8px;
+  font-size: 16px;
+  border:1px solid rgb(193, 193, 193);
+}
+
+.search-icon{
+  position: absolute;
+  top: 24%;
+  padding: 0 12px;
+  max-width: 40px;
+}
+
+.cart-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 4px;
+  max-width: 55px;
+  flex: 1;
+  border: 1px solid rgb(193, 193, 193);
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.cart-section img{
+  width: 30px;
+}
+
+.profile-section{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: red;
+  margin-right: 2%;
+  cursor: pointer;
+}
+
+/* -------------------------------------------------- */
+
+.hero{
+  display: flex;
+  align-items: center;
+}
+
+.left{
+  width: 50%;
+  margin-left: 2%;
+}
+
+.left h1 {
+  font-size: 66px;
+  line-height: 61px;
+  width: 530px;
+  margin-bottom: 15px;
+}
+
+.left h1 span{
+  color: orange;
+}
+
+.left .description{
+  width: 550px;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom:20px;
+}
+
+.shop-now{
+  background-color: rgb(29, 38, 50);
+  color: white;
+  font-size: 18px;
+  padding: 18px 66px;
+  border-radius: 32px;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.shop-now:active{
+  transform: scale(0.9);
+}
+
+.right .shoe{
+  width: 500px;
+  transform: rotateZ(15deg);
+}
+
+/* ------------------------------------------ */
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background-color: rgb(255, 136, 0);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+}
+
+.achievements{
+  display: flex;
+  align-items: center;
+  line-height: 21px;
+}
+
+.achievements span{
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.633);
+}
+
+.achievements img{
+  width: 60px;
+  margin-right: 10px;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 17</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-section">Logo</div>
+        <div class="menu-section">
+          <div class="Home menu">Home</div>
+          <div class="service menu">Services</div>
+          <div class="Contact menu">Contact Us</div>
+          <div class="About menu">About Us</div>
+        </div>
+        <div class="profile-section">
+            <p class="profile-name">Username</p> 
+            <button class="exit">
+              <i class="fa-solid fa-arrow-right-from-bracket fa-xl" style="color: #db0000;"></i>
+            </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <section class="left">
+        <div class="added-items">
+          <h3>Added Items</h3>
+          <div class="cart-table">
+            <div class="table">
+              <table>
+                <thead>
+                  <tr class="heading">
+                    <th>S.No</th>
+                    <th>Service Name</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+              <tbody>
+              </tbody>
+            </table>
+              <div class="empty-table-msg">
+                 <i class="fa-solid fa-circle-info big-info"></i>
+                  <p class="no-items-added">No Items Added</p>
+                  <p class="message">Add items to the cart from the services bar</p>
+              </div>
+        </div>
+          <div class="total-amt">
+            <p class="amt-title">Total Amount</p>
+            <p><i class="total-amt-symbol fa-solid fa-indian-rupee-sign">0</i></p>
+          
+          </div>
+        </div>
+        </div>
+        <div class="booking-section">
+          <h4>Book Now</h4>
+          <form>
+            <label for="name">Full Name</label><br>
+            <input type="text" placeholder="John Doe" id="name"><br>
+           <div class="contain">
+             <div> 
+               <label for="email">Email ID</label><br>
+               <input type="email" placeholder="mailid@gmail.com" id="email">
+              </div>
+              <div>
+                <label for="phone">Phone Number</label><br>
+                <input type="text" placeholder="0000000000" id="phone">
+              </div>
+            </div>
+            
+            <input type="button" value="Book now" class="book-now">
+            <p class="alert"><i class="fa-solid fa-circle-info red-info"></i>Add the items to the cart to book</p>
+            <p class="confirm"><i class="fa-solid fa-circle-info green-info"></i>Thank you for contacting, we will get back to you soon</p>
+          </form>
+        </div>
+      </section>
+
+      <section class="right">
+        <div class="description">
+          <h1>Browse Our Services</h1>
+          <p>Click on the add to cart button to add the services to your cart or press skip</p>
+
+          <div class="display-section">
+             
+          </div>
+          <p class="product-info"><i class="fa-solid fa-circle-info"></i>Add the items to the cart and book now</p>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

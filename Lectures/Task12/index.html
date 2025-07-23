@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 12</title>
+  </head>
+  <body>
+    <script>
+      //Sum of digits
+      let num = 153;
+      let num1 = num;
+      let num2 = num;
+      let num3 = num;
+      let sum = 0;
+      let rem = 0;
+      console.log(`Numbers :- ${num}`);
+      while (num > 0) {
+        rem = num % 10;
+        sum += rem;
+        num = Math.floor(num / 10);
+      }
+
+      console.log(`Sum of its digits: ${sum}`);
+      //---------------------------------------------------
+
+      // Armstrong number
+      let sum1 = 0;
+      let rem1 = 0;
+      let power = 0;
+
+      let temp = num1;
+
+      //finding power
+      while (temp > 0) {
+        power++;
+        temp = Math.floor(temp / 10);
+      }
+
+      temp = num1;
+      //checking for armstrong
+      while (num1 > 0) {
+        rem1 = num1 % 10;
+        sum1 += rem1 * rem1 * rem1;
+        num1 = Math.floor(num1 / 10);
+      }
+
+      if (sum1 === temp) {
+        console.log(`Is it an Armstrong number? Yes`);
+      } else {
+        console.log(`Is it an Armstrong number? No`);
+      }
+      //----------------------------------------------------
+
+      //Prime number
+      let count = 0;
+
+      for (let i = 1; i <= num2; i++) {
+        if (num2 % i == 0) {
+          count++;
+        }
+        if (count > 2) {
+          console.log(`Is it a prime number? No`);
+          break;
+        }
+      }
+
+      if (count === 2) {
+        console.log(`Is it a prime number? Yes`);
+      } else if (count < 2) {
+        console.log(`Is it a prime number? No`);
+      }
+      //---------------------------------------------------
+
+      //Factors
+      let factors = 0;
+      let result = " ";
+      for (let i = 1; i <= num2; i++) {
+        if (num2 % i == 0) {
+          result += i+", ";
+        }
+      }
+      console.log(`Factors:${result}`);
+    </script>
+  </body>
+</html>
