@@ -1,5 +1,5 @@
 import "./Style/Header.css";
-import shoesImg from './assets/Logo/Lion.png';
+import shoesImg from '/assets/Logo/Lion.png';
 
 function Header() {
   return (
