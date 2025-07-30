@@ -1,0 +1,17 @@
+.cart-container{
+  width: 100%;
+}
+
+#cart {
+  background-color: rgb(237, 237, 237);
+  padding: 2vh 1vw 6vh 2vw;
+  border-radius: 1vw;
+}
+
+#total {
+  display: block;
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 4vh 0 0 0;
+}
