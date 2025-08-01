@@ -44,15 +44,15 @@ h1 {
   margin: 4vh 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  row-gap: 7vw;
-  column-gap: 5vw;
+  justify-content: center;
+  row-gap: 8vw;
+  column-gap: 12vw;
 }
 
 .card {
   background-color: rgb(42, 42, 42);
   width: 300px;
-  height: 350px;
+  height: 360px;
   text-align: center;
   position: relative;
   display: flex;
