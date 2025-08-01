@@ -1,0 +1,92 @@
+[
+  {
+    "imgSrc": "/assets/pic-1.jpg",
+    "title": "Card 1",
+    "desc": "This is Card 1 description"
+  },
+  {
+    "imgSrc": "/assets/pic-2.jpg",
+    "title": "Card 2",
+    "desc": "This is Card 2 description"
+  },
+  {
+    "imgSrc": "/assets/pic-3.jpg",
+    "title": "Card 3",
+    "desc": "This is Card 3 description"
+  },
+  {
+    "imgSrc": "/assets/pic-4.jpg",
+    "title": "Card 4",
+    "desc": "This is Card 4 description"
+  },
+  {
+    "imgSrc": "/assets/pic-5.jpg",
+    "title": "Card 5",
+    "desc": "This is Card 5 description"
+  },
+  {
+    "imgSrc": "/assets/pic-6.jpg",
+    "title": "Card 6",
+    "desc": "This is Card 6 description"
+  },
+  {
+    "imgSrc": "/assets/pic-7.jpg",
+    "title": "Card 7",
+    "desc": "This is Card 7 description"
+  },
+  {
+    "imgSrc": "/assets/pic-8.jpg",
+    "title": "Card 8",
+    "desc": "This is Card 8 description"
+  },
+  {
+    "imgSrc": "/assets/pic-9.jpg",
+    "title": "Card 9",
+    "desc": "This is Card 9 description"
+  },
+  {
+    "imgSrc": "/assets/pic-10.jpg",
+    "title": "Card 10",
+    "desc": "This is Card 10 description"
+  },
+  {
+    "imgSrc": "/assets/pic-11.jpg",
+    "title": "Card 11",
+    "desc": "This is Card 11 description"
+  },
+  {
+    "imgSrc": "/assets/pic-12.jpg",
+    "title": "Card 12",
+    "desc": "This is Card 12 description"
+  },
+  {
+    "imgSrc": "/assets/pic-13.jpg",
+    "title": "Card 13",
+    "desc": "This is Card 13 description"
+  },
+  {
+    "imgSrc": "/assets/pic-14.jpg",
+    "title": "Card 14",
+    "desc": "This is Card 14 description"
+  },
+  {
+    "imgSrc": "/assets/pic-15.jpg",
+    "title": "Card 15",
+    "desc": "This is Card 15 description"
+  },
+  {
+    "imgSrc": "/assets/pic-16.jpg",
+    "title": "Card 16",
+    "desc": "This is Card 16 description"
+  },
+  {
+    "imgSrc": "/assets/pic-17.jpg",
+    "title": "Card 17",
+    "desc": "This is Card 17 description"
+  },
+  {
+    "imgSrc": "/assets/pic-18.jpg",
+    "title": "Card 18",
+    "desc": "This is Card 18 description"
+  }
+]
