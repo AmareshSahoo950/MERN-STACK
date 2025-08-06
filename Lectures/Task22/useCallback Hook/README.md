@@ -43,10 +43,7 @@ This project uses the Platzi Fake Store API:
 - Endpoint: `https://api.escuelajs.co/api/v1/products`
 
 ## Contributing
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page](your-repo-link/issues) if you want to contribute.
+Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/AmareshSahoo950/MERN-STACK/tree/master/Lectures/Task22/useCallback%20Hook) if you want to contribute.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-
-## Contact
-Project Link: [https://github.com/yourusername/your-repo-name](https://github.com/yourusername/your-repo-name)
