@@ -1,4 +1,6 @@
 import useFetch from './hooks/useFetch'
+import Product from './component/Product';
+import Header from './component/Header';
 
 function App() {
 
@@ -31,22 +33,10 @@ function App() {
 
   return (
     <main className=' min-h-screen bg-black '>
-
-      <div className="fixed top-0 left-0 right-0 h-[15vh] bg-black z-10 flex items-center justify-center">
-        <h1 className="text-4xl font-semibold text-white">Photos</h1>
-      </div>
-
+      <Header />
       <div className='mt-[20vh] mx-2 grid bg-transparent grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-[4vh] gap-x-[1vw]'>
-
         {data.map((product) => (
-          <div key={product.id} className='bg-transparent rounded-sm border-white border-2 w-full pt-7 pb-7'>
-            <div className='w-full overflow-hidden px-9'>
-              <img src={product.images[0]} alt={product.title} className="w-full h-full object-cover " />
-            </div>
-            <div className=" mt-5">
-              <h2 className='text-center font-semibold text-lg mb-2 px-4 text-white w-full'>{product.title}</h2>
-            </div>
-          </div>
+          <Product product={product} />
         ))}
       </div>
     </main>

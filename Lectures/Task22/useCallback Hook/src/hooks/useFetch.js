@@ -1,5 +1,5 @@
 
-import React, { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 
 function useFetch(url) {
 
@@ -21,6 +21,7 @@ function useFetch(url) {
       setData(result);
     } catch (error) {
       setError(error.message || 'Unknown Error');
+
     } finally {
       setLoading(false);
     }
