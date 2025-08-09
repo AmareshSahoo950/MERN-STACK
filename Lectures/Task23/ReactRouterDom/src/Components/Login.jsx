@@ -13,7 +13,7 @@ function Login() {
               <label htmlFor="password">PASSWORD</label>
               <input type="password" id='password' className='py-3 w-full border-2 border-white rounded-lg mt-3 mb-9 pl-3' placeholder='Amaresh@1234' required />
 
-              <button type='submit' className="w-full relative z-0 rounded-sm bg-violet-700 px-10 py-3 transition-[all_0.3s_ease] after:absolute after:left-0 after:top-0 after:-z-10 after:h-full after:w-0 after:rounded after:bg-violet-800 after:transition-[all_0.3s_ease]  hover:after:w-full font-semibold text-xl mb-3">
+              <button type='submit' className="w-full relative z-0 rounded-sm bg-violet-700 px-10 py-3 transition-[all_0.3s_ease] after:absolute after:left-0 after:top-0 after:-z-10 after:h-full after:w-0 after:rounded after:bg-violet-800 after:transition-[all_0.3s_ease]  hover:after:w-full font-semibold text-xl mb-3 cursor-pointer">
                 LOGIN
               </button>
             </form>
