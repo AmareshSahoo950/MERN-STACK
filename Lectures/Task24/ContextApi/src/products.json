@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "imgSrc": "/assets/Shoes/shoes-men-white-top-two.jpg",
+    "title": "Classic Black Sneakers",
+    "price": "$49.99"
+  },
+  {
+    "id": 2,
+    "imgSrc": "/assets/Shoes/fashion-shoes.jpg",
+    "title": "Retro High-Top Canvas",
+    "price": "$59.99"
+  },
+  {
+    "id": 3,
+    "imgSrc": "/assets/Shoes/shoes.jpg",
+    "title": "Formal Shoes",
+    "price": "$89.99"
+  },
+  {
+    "id": 4,
+    "imgSrc": "/assets/Shoes/fashion-shoes-sneakers.jpg",
+    "title": "Classic Sneakers",
+    "price": "$49.99"
+  },
+  {
+    "id": 5,
+    "imgSrc": "/assets/Shoes/men-shoes.jpg",
+    "title": "Retro High-Top Canvas",
+    "price": "$59.99"
+  },
+  {
+    "id": 6,
+    "imgSrc": "/assets/Shoes/sport-running-shoes.jpg",
+    "title": "Sporty Running Shoes",
+    "price": "$69.99"
+  },
+  {
+    "id": 7,
+    "imgSrc": "/assets/Shoes/brown-shoes.jpg",
+    "title": "Leather Formal Shoes",
+    "price": "$89.99"
+  },
+  {
+    "id": 8,
+    "imgSrc": "/assets/Shoes/men-shoes (1).jpg",
+    "title": "Slip-On Loafers",
+    "price": "$39.99"
+  },
+  {
+    "id": 9,
+    "imgSrc": "/assets/Shoes/shoes (1).jpg",
+    "title": "Slip-On Loafers",
+    "price": "$39.99"
+  },
+  {
+    "id": 10,
+    "imgSrc": "/assets/Shoes/brown-leather-shoes.jpg",
+    "title": "Chunky Dad Sneakers",
+    "price": "$74.99"
+  }
+]
