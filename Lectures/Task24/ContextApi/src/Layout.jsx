@@ -18,9 +18,8 @@ function Layout() {
 
     const currentPageState = location.pathname === '/';
     setIsHomePage(currentPageState);
-
     localStorage.setItem("homeState", JSON.stringify(isHomePage));
-  }, [cart, isHomePage])
+  }, [cart, isHomePage, location])
 
   return (
     <>
