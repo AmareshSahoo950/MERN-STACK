@@ -4,6 +4,10 @@ This project is a simple shopping cart application built with React and Redux To
 
 ---
 
+## Deployment Link :- https://using-redux-toolkit-for-app.netlify.app/
+
+---
+
 ## Features
 
 - Add products to the cart
@@ -50,13 +54,13 @@ npm start
 
 ## Folder Structure
 
-``
+```
 /src
-/components # React components (Product list, Cart, CartItem)
-/redux # Redux slice and store configuration
-/styles # CSS styles
-products.json # Sample products data
-``
+/components > React components > (Product list, Cart, CartItem)
+/redux > Redux slice and store configuration
+/styles > CSS styles
+products.json > Sample products data
+```
 
 ---
 
@@ -65,7 +69,7 @@ products.json # Sample products data
 - Used `createSlice` to create a cart slice with reducers:
   - `addToCart` adds an item or increments quantity if item exists
   - `removeFromCart` decrements quantity or removes item if quantity hits zero
-- Used `useDispatch` and `useSelector` React-Redux hooks to dispatch actions and read state in components
+- Used `useDispatch()` and `useSelector()` React-Redux hooks to dispatch actions and read state in components
 
 ---
 
@@ -82,7 +86,7 @@ products.json # Sample products data
 This project helps understand:
 
 - Global state management with Redux Toolkit
-- React Redux hooks `useSelector()` and `useDispatch()` for state and dispatch
+- React Redux hooks for state and dispatch
 - Separation of UI components and state logic.
 
 ---
